@@ -39,7 +39,7 @@ document.addEventListener('scroll',  ()=> {
     document.querySelector('.ball-inner-11').style=`bottom:${ +positionBall[10] + pageYOffset/100}%`
     document.querySelector('.ball-inner-12').style=`bottom:${ +positionBall[11] - pageYOffset/50}%`
     document.querySelector('.ball-inner-13').style=`bottom:${ +positionBall[12] + pageYOffset/150}%`
-    document.querySelector('.section-main__content-item:last-child').style=`bottom:${ +'0' + pageYOffset/10}px`
+    document.querySelector('.section-main__content-item:last-child').style=`bottom:${ +'0' + pageYOffset/5}px`
  
   }
  
