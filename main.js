@@ -8,7 +8,7 @@ document.addEventListener('scroll',  ()=> {
   
   if (document.documentElement.clientWidth <= 600) {
     positionBall = ["5", "0", "20", "0","23", "38","20","0","0","0","55","70","25"]
-    document.querySelector('.section-main__content-item:last-child').style=`top:${ +'8' - pageYOffset/20}%`
+    document.querySelector('.section-main__content-item:last-child').style=`top:${ +'8' - pageYOffset/30}%`
     // document.querySelector('.ball-inner-1').style=`top:${ +positionBall[0] + pageYOffset/70}%`
     // document.querySelector('.ball-inner-2').style=`top:${ +positionBall[1] + pageYOffset/70}%`
     // document.querySelector('.ball-inner-3').style=`top:${ +positionBall[2] + pageYOffset/70}%`
